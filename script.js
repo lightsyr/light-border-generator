@@ -53,7 +53,7 @@ function copyToClipboard(){
     cssText.select()
     cssText.setSelectionRange(0, 99999)
     navigator.clipboard.writeText(cssText.value);
-    alert("Código CSS copiado!")
+    alert("Copied to clipboard!")
 }
 
 function resetValues(){
