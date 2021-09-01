@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Light Border Generator</title>
+    </head>
+    <body>
+        <div id="logo">
+            <h1>Light Border Generator</h1>
+            <p>A service by Leandro C.</p>
+        </div>
+        <div id="Box">
+            <textarea id="cssText"></textarea>
+        </div>
+        <div id="Configurations">
+            <input id="borderTopLeft" placeholder="Top Left">
+            <input id="borderTopRight" placeholder="Top Right">
+            <input id="borderBottomLeft" placeholder="Bottom Left">
+            <input id="borderBottomRight" placeholder="Bottom Right">
+        </div>
+        <button id="setBorder" onclick="setBorder()">Set Border Radius</button>
+        <button id="copyToBoard" onclick="copyToClipboard()">Copy to Clipboard</button>
+        <button id="resetButton" onclick="resetValues()">Reset</button>
+        
+    </body>
+    <script src="script.js"></script>
+</html>
